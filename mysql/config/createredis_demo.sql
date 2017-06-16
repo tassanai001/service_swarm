@@ -1,0 +1,2 @@
+CREATE SCHEMA IF NOT EXISTS `redis_demo` DEFAULT CHARACTER SET utf8 ;
+USE `redis_demo`;
