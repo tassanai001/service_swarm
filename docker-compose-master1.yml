@@ -18,7 +18,7 @@ services:
   links:
    - mysql
   environment:
-   - REDIS_SERVER=192.168.56.1
+   - REDIS_SERVER=172.20.10.67
    - REDIS_PORT=6379
   deploy:
    mode: replicated
@@ -38,9 +38,6 @@ services:
    - express
   ports:
    - "80:80"
-  environment:
-   - NGINX_HOST=172.20.10.69;
-   - PROXY_PASS=http://172.20.10.69:3000;
   deploy:
    mode: replicated
    replicas: 2
