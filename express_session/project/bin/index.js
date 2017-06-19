@@ -106,10 +106,6 @@ function handle_database(req, type, callback) {
     });
 }
 
-/**
- --- Router Code begins here.
- **/
-
 router.get('/', function (req, res) {
     res.render('index.html');
 });
