@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var path = require("path");
 var async = require("async");
+// var cors = require('cors');
 var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_SERVER);
 var app = express();
 var router = express.Router();
@@ -44,6 +45,7 @@ app.use(session({
 app.use(cookieParser("secretSign#143_!223"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+// app.use(cors());
 
 function handle_database(req, type, callback) {
     async.waterfall([
@@ -113,6 +115,7 @@ router.get('/', function (req, res) {
 router.post('/login', function (req, res) {
     console.log("From Login");
     handle_database(req, "login", function (response) {
+        console.log("------------->>> ", response);
         if (response === null) {
             res.json({"error": "true", "message": "Database error occured"});
         } else {

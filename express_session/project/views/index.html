@@ -16,7 +16,7 @@ $(document).ready(function(){
 	$("#username").hide();
 	$('#login-submit').click(function(e){
 		if($(this).attr('value') === 'Register') {
-			$.post("http://localhost:3000/register",{ user_name : $("#username").val(), user_email : $("#useremail").val(), user_password : $("#password").val() },function(data){
+			$.post("/register",{ user_name : $("#username").val(), user_email : $("#useremail").val(), user_password : $("#password").val() },function(data){
 				if(data.error) {
 					alert(data.message);
 				} else {
@@ -25,11 +25,11 @@ $(document).ready(function(){
 				}
 			});
 		} else {
-			$.post("http://localhost:3000/login",{ user_email : $("#useremail").val(), user_password : $("#password").val() },function(data){
+			$.post("/login",{ user_email : $("#useremail").val(), user_password : $("#password").val() },function(data){
 				if(!data.error) {
 					window.location.href = "/home";
 				} else {
-					alert(data.message);
+                    alert(data.message);
 				}
 			});
 		}
