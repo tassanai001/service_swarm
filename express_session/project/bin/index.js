@@ -1,64 +1,55 @@
-var express         =	  require("express");
-var redis           =	  require("redis");
-var mysql           =	  require("mysql");
-var session         =	  require('express-session');
-var redisStore      =	  require('connect-redis')(session);
-var bodyParser      =	  require('body-parser');
-var cookieParser    =	  require('cookie-parser');
-var path            =	  require("path");
-var async           =	  require("async");
-var client          =     redis.createClient();
-var app             =	  express();
-var router          =	  express.Router();
-
+var express = require("express");
+var redis = require("redis");
+var mysql = require("mysql");
+var session = require('express-session');
+var redisStore = require('connect-redis')(session);
+var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var path = require("path");
+var async = require("async");
+var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_SERVER);
+var app = express();
+var router = express.Router();
 
 console.log("REDIS_SERVER :", process.env.REDIS_SERVER);
 console.log("REDIS_PORT: ", process.env.REDIS_PORT);
 
-// Always use MySQL pooling.
-// Helpful for multiple connections.
-
-var pool	=	mysql.createPool({
-    connectionLimit : 100,
-    host     : 'mysql',
-    user     : 'root',
-    password : 'tbdtest',
-    database : 'redis_demo',
-    debug    :  false
+client.on('connect', function () {
+    console.log("Redis connected: ");
+});
+client.on('error', function (err) {
+    console.log("Redis Error: ", err);
 });
 
-app.set('views', path.join(__dirname,'../','views'));
+var pool = mysql.createPool({
+    connectionLimit: 100,
+    host: 'mysql',
+    user: 'root',
+    password: 'tbdtest',
+    database: 'redis_demo',
+    debug: false
+});
+
+app.set('views', path.join(__dirname, '../', 'views'));
 app.engine('html', require('ejs').renderFile);
-
-// IMPORTANT
-// Here we tell Express to use Redis as session store.
-// We pass Redis credentials and port information.
-// And express does the rest !
-
-console.log("process.env.REDIS_SERVER",process.env.REDIS_SERVER);
-console.log("process.env.REDIS_PORT",process.env.REDIS_PORT);
 
 app.use(session({
     secret: 'ssshhhhh',
-    store: new redisStore({host: process.env.REDIS_SERVER, port: process.env.REDIS_PORT, client: client, ttl: 260}),
+    store: new redisStore({host: process.env.REDIS_SERVER, port: process.env.REDIS_PORT, client: client, ttl: 3600000}),
+    cookie: {maxAge: 3600000},
     saveUninitialized: false,
     resave: false
 }));
+
 app.use(cookieParser("secretSign#143_!223"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-// This is an important function.
-// This function does the database handling task.
-// We also use async here for control flow.
-
-function handle_database(req,type,callback) {
+function handle_database(req, type, callback) {
     async.waterfall([
         function (callback) {
             pool.getConnection(function (err, connection) {
                 if (err) {
-                    // if there is error, stop right away.
-                    // This will stop the async code execution and goes to last function.
                     callback(true);
                 } else {
                     callback(null, connection);
@@ -102,14 +93,11 @@ function handle_database(req,type,callback) {
                         callback(false);
                     }
                 } else {
-                    // if there is error, stop right away.
-                    // This will stop the async code execution and goes to last function.
                     callback(true);
                 }
             });
         }
     ], function (result) {
-        // This function gets call after every async task finished.
         if (typeof(result) === "boolean" && result === true) {
             callback(null);
         } else {
@@ -119,17 +107,16 @@ function handle_database(req,type,callback) {
 }
 
 /**
-    --- Router Code begins here.
-**/
+ --- Router Code begins here.
+ **/
 
-router.get('/',function(req,res){
-	res.render('index.html');
+router.get('/', function (req, res) {
+    res.render('index.html');
 });
 
-router.post('/login',function(req,res){
+router.post('/login', function (req, res) {
     console.log("From Login");
     handle_database(req, "login", function (response) {
-        console.log("response: ", response);
         if (response === null) {
             res.json({"error": "true", "message": "Database error occured"});
         } else {
@@ -144,63 +131,55 @@ router.post('/login',function(req,res){
 });
 
 router.get('/home', function (req, res) {
-    console.log("From Home ", "session", req.session.key);
     if (req.session.key) {
-        console.log("From Home111: ", "session", req.session.key);
-        console.log("From Home222: ", "session", req.session.key["user_name"]);
         res.render("home.html", {email: req.session.key["user_name"]});
     } else {
         res.redirect("/");
     }
 });
 
-router.get("/fetchStatus",function(req,res){
-    console.log("From FetchStatus ", "session", req.session.key);
-  if(req.session.key) {
-    handle_database(req,"getStatus",function(response){
-        console.log("FetchStatus: ", response);
-      if(!response) {
-        res.json({"error" : false, "message" : "There is no status to show."});
-      } else {
-        res.json({"error" : false, "message" : response});
-      }
-    });
-  } else {
-    res.json({"error" : true, "message" : "Please login first."});
-  }
-});
-
-router.post("/addStatus",function(req,res){
-    console.log("From AddStatus ", "session", req.session.key);
-    if(req.session.key) {
-      handle_database(req,"addStatus",function(response){
-          console.log("AddStatus ", response);
-        if(!response) {
-          res.json({"error" : false, "message" : "Status is added."});
-        } else {
-          res.json({"error" : false, "message" : "Error while adding Status"});
-        }
-      });
+router.get("/fetchStatus", function (req, res) {
+    if (req.session.key) {
+        handle_database(req, "getStatus", function (response) {
+            if (!response) {
+                res.json({"error": false, "message": "There is no status to show."});
+            } else {
+                res.json({"error": false, "message": response});
+            }
+        });
     } else {
-      res.json({"error" : true, "message" : "Please login first."});
+        res.json({"error": true, "message": "Please login first."});
     }
 });
 
-router.post("/register",function(req,res){
-    console.log("From Register");
-    handle_database(req,"checkEmail",function(response){
-        console.log("Register ", response);
-      if(response === null) {
-        res.json({"error" : true, "message" : "This email is already present"});
-      } else {
-        handle_database(req,"register",function(response){
-          if(response === null) {
-            res.json({"error" : true , "message" : "Error while adding user."});
-          } else {
-            res.json({"error" : false, "message" : "Registered successfully."});
-          }
+router.post("/addStatus", function (req, res) {
+    console.log("From AddStatus ", "session", req.session.key);
+    if (req.session.key) {
+        handle_database(req, "addStatus", function (response) {
+            if (!response) {
+                res.json({"error": false, "message": "Status is added."});
+            } else {
+                res.json({"error": false, "message": "Error while adding Status"});
+            }
         });
-      }
+    } else {
+        res.json({"error": true, "message": "Please login first."});
+    }
+});
+
+router.post("/register", function (req, res) {
+    handle_database(req, "checkEmail", function (response) {
+        if (response === null) {
+            res.json({"error": true, "message": "This email is already present"});
+        } else {
+            handle_database(req, "register", function (response) {
+                if (response === null) {
+                    res.json({"error": true, "message": "Error while adding user."});
+                } else {
+                    res.json({"error": false, "message": "Registered successfully."});
+                }
+            });
+        }
     });
 });
 
@@ -214,8 +193,8 @@ router.get('/logout', function (req, res) {
     }
 });
 
-app.use('/',router);
+app.use('/', router);
 
-app.listen(3000,function(){
-	console.log("I am running at 3000");
+app.listen(3000, function () {
+    console.log("I am running at 3000");
 });

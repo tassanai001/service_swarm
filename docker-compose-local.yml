@@ -13,7 +13,7 @@ services:
   links:
    - mysql
   environment:
-   - REDIS_SERVER=172.16.1.76
+   - REDIS_SERVER=192.168.56.1
    - REDIS_PORT=6379
 
  nginx:
