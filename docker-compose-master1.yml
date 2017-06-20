@@ -20,6 +20,8 @@ services:
   environment:
    - REDIS_SERVER=172.20.10.67
    - REDIS_PORT=6379
+   - IP_LOCAL_HOST=172.20.10.67
+   - MACHINE_NAME=MASTER1
   deploy:
    mode: replicated
    replicas: 1

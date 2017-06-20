@@ -8,7 +8,7 @@ services:
    - "3306:3306"
   deploy:
    mode: replicated
-   replicas: 2
+   replicas: 1
    restart_policy:
     condition: on-failure
 
@@ -16,16 +16,17 @@ services:
   build: ./express_session
 #  image: tassanai/serviceswarm_express:V1
   ports:
-   - "3000:3000"
+   - "3001:3000"
   links:
    - mysql
   environment:
-   - REDIS_SERVER=192.168.56.1
+   - REDIS_SERVER=172.16.1.76
    - REDIS_PORT=6379
    - IP_LOCAL_HOST=172.16.1.76
+   - MACHINE_NAME=NODE_LOCAL
   deploy:
    mode: replicated
-   replicas: 2
+   replicas: 1
    resources:
     limits:
       cpus: "0.1"
@@ -41,12 +42,12 @@ services:
   links:
    - express
   ports:
-   - "8080:80"
+   - "8081:80"
   environment:
-   - NGINX_HOST=192.168.56.1
-   - PROXY_PASS=http://192.168.56.1:3000
+   - NGINX_HOST=172.16.1.76
+   - PROXY_PASS=http://172.16.1.76:3001
   deploy:
    mode: replicated
-   replicas: 2
+   replicas: 1
    restart_policy:
     condition: on-failure

@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var path = require("path");
 var async = require("async");
-// var cors = require('cors');
+var unirest = require('unirest');
+
 var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_SERVER);
 var app = express();
 var router = express.Router();
@@ -45,7 +46,6 @@ app.use(session({
 app.use(cookieParser("secretSign#143_!223"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
-// app.use(cors());
 
 function handle_database(req, type, callback) {
     async.waterfall([
@@ -108,9 +108,32 @@ function handle_database(req, type, callback) {
     });
 }
 
+
 router.get('/', function (req, res) {
-    res.render('index.html');
+    var result = req.session["counter"];
+    if (result !== undefined) {
+        result += 1;
+    } else {
+        result = 0;
+    }
+    req.session["counter"] = result;
+    console.time("PoolNode Time");
+    getValuePoolnode(function (cb) {
+        console.timeEnd("PoolNode Time");
+        res.render('index.ejs', {counter: result, value: JSON.stringify(cb), machinename: process.env.MACHINE_NAME});
+    });
 });
+
+function getValuePoolnode(callback) {
+    var URL = `http://${process.env.IP_LOCAL_HOST}:3003/Render/renderCmp`;
+    unirest.get(URL).end(function (response) {
+        if (response.body) {
+            callback(response.body);
+        } else {
+            callback(null);
+        }
+    });
+}
 
 router.post('/login', function (req, res) {
     console.log("From Login");
@@ -131,11 +154,12 @@ router.post('/login', function (req, res) {
 
 router.get('/home', function (req, res) {
     if (req.session.key) {
-        res.render("home.html", {email: req.session.key["user_name"]});
+        res.render("home.ejs", {email: req.session.key["user_name"]});
     } else {
         res.redirect("/");
     }
 });
+
 
 router.get("/fetchStatus", function (req, res) {
     if (req.session.key) {
