@@ -8,6 +8,7 @@ var cookieParser = require('cookie-parser');
 var path = require("path");
 var async = require("async");
 var unirest = require('unirest');
+var os = require('os');
 
 var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_SERVER);
 var app = express();
@@ -124,7 +125,7 @@ router.get('/', function (req, res) {
             value: JSON.stringify(cb.value),
             hostname: cb.value,
             time: cb.time,
-            machinename: process.env.MACHINE_NAME
+            machinename: os.hostname.toUpperCase()
         });
     });
 });
