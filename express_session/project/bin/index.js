@@ -117,10 +117,15 @@ router.get('/', function (req, res) {
         result = 0;
     }
     req.session["counter"] = result;
-    console.time("PoolNode Time");
     getValuePoolnode(function (cb) {
         console.timeEnd("PoolNode Time");
-        res.render('index.ejs', {counter: result, value: JSON.stringify(cb), machinename: process.env.MACHINE_NAME});
+        res.render('index.ejs', {
+            counter: result,
+            value: JSON.stringify(cb.value),
+            hostname: cb.value,
+            time: cb.time,
+            machinename: process.env.MACHINE_NAME
+        });
     });
 });
 

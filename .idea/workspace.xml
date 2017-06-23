@@ -2,301 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64a4aa23-4017-4503-a884-97c52f5d0f88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/images/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/images/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/images/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/images/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/sort-arrow-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/sort-arrow-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/images/ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/basic-auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/body-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/cors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/error-response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/example-app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/issue-2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/issue-31.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/mocha.opts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/cors/test/support/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/object-assign/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/object-assign/license" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/object-assign/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/object-assign/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/vary/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/vary/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/vary/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/vary/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/node_modules/vary/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/bin/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/lib/async.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/lib/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov-report/sorter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lcov.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lib/async.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/lib/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/prettify.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/coverage/sorter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/lib/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/nyc_output/5074.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/async/support/sync-package-managers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/lib/read.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/lib/types/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/lib/types/raw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/lib/types/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/lib/types/urlencoded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/body-parser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/connect-redis/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/connect-redis/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/connect-redis/bench/redisbench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/connect-redis/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/connect-redis/lib/connect-redis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/connect-redis/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cookie-parser/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cookie-parser/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cookie-parser/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cookie-parser/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cookie-parser/lib/parse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cookie-parser/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cors/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cors/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cors/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cors/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cors/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/cors/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/Jakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/ejs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/lib/ejs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/ejs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/session/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/session/memory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/session/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express-session/session/store.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/express.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/middleware/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/middleware/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/request.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/response.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/router/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/router/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/router/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/lib/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/express/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/bin/_mocha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/bin/mocha" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/bin/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/escape-string-regexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/glob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/path.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/browser/tty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/context.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/hook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/interfaces/bdd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/interfaces/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/interfaces/exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/interfaces/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/interfaces/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/interfaces/tdd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/pending.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/doc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/dot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/html-cov.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/html.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/json-cov.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/json-stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/landing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/nyan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/progress.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/tap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/templates/coverage.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/templates/menu.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/templates/script.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/templates/style.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/reporters/xunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/runnable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/suite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/template.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/mocha.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/mocha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mocha/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/Changes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/License" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/Connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/ConnectionConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/Pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/PoolCluster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/PoolConfig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/PoolConnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/PoolNamespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/PoolSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/Auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/PacketHeader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/PacketWriter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/Parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/Protocol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/ResultSet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/SqlString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/charsets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/field_flags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/server_status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/constants/types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/EofPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/Field.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/FieldPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/OkPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/packets/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/Handshake.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/Ping.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/Query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/Quit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/Sequence.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/Statistics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/lib/protocol/sequences/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/mysql/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/connection_breaker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/lib/commands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/lib/parser/hiredis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/lib/parser/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/lib/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/lib/to_array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/redis/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/as-function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/assertion-error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/assertion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/_assert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/assert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/bool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/chain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/contain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/eql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/match.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/property.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/ext/type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/should.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/should.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/should/should.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/lib/agent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/lib/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/supertest/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/unirest/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/unirest/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/unirest/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/unirest/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/unirest/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/node_modules/unirest/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/redis_demo.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/views/home.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/express_session/project/views/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/express_session/project/bin/index.js" afterPath="$PROJECT_DIR$/express_session/project/bin/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -311,51 +18,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="docker-compose-master1.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose-master1.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="docker-compose-master2.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose-master2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/express_session/project/bin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="214" column="26" lean-forward="true" selection-start-line="214" selection-start-column="26" selection-end-line="214" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express_session/project/views/home.ejs">
+      <file leaf-file-name="docker-compose-master1.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose-master1.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="47" column="84" lean-forward="false" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express_session/project/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            <state relative-caret-position="342">
+              <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -382,6 +69,8 @@
       <find>result</find>
       <find>user_status</find>
       <find>IP_LOCAL_HOST</find>
+      <find>machinename</find>
+      <find>MACHINE_NAME</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -414,9 +103,9 @@
         <option value="$PROJECT_DIR$/docker-compose-master1.yml" />
         <option value="$PROJECT_DIR$/docker-compose-local.yml" />
         <option value="$PROJECT_DIR$/docker-compose-master2.yml" />
-        <option value="$PROJECT_DIR$/express_session/project/bin/index.js" />
         <option value="$PROJECT_DIR$/nginx/nginx.conf" />
         <option value="$PROJECT_DIR$/express_session/project/views/index.ejs" />
+        <option value="$PROJECT_DIR$/express_session/project/bin/index.js" />
       </list>
     </option>
   </component>
@@ -457,6 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,16 +160,188 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx_conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx_conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="master1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx_conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express_session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express_session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express_session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express_session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service_swarm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="express_session" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Nodejs-Session-Using-Redis-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="JavaScriptPreferStrict" value="false" />
@@ -602,12 +465,13 @@
       <workItem from="1497598536925" duration="17826000" />
       <workItem from="1497842695280" duration="31155000" />
       <workItem from="1497929810379" duration="3402000" />
-      <workItem from="1497934694913" duration="11720000" />
+      <workItem from="1497934694913" duration="16393000" />
+      <workItem from="1498214427496" duration="767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64103000" />
+    <option name="totallyTimeSpent" value="69543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1296" height="1040" extended-state="6" />
@@ -619,7 +483,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5107527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57741934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -702,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,19 +749,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx_conf/master1/default.conf">
+    <entry file="file://$PROJECT_DIR$/buildimages-local.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx_conf/master2/default.conf">
+    <entry file="file://$PROJECT_DIR$/nginx/main_config/production/nginx.conf" />
+    <entry file="file://$PROJECT_DIR$/nginx/main_config/local/nginx.conf" />
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/conf.d/default.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,47 +776,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildimages-local.sh">
+    <entry file="file://$PROJECT_DIR$/docker-compose-local.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/main_config/production/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/main_config/local/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx_conf/local/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="123">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -959,57 +794,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-local.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/conf.d/default.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-master1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-master2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express_session/project/bin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="214" column="26" lean-forward="true" selection-start-line="214" selection-start-column="26" selection-end-line="214" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/express_session/project/views/home.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
+        <state relative-caret-position="799">
           <caret line="47" column="84" lean-forward="false" selection-start-line="47" selection-start-column="84" selection-end-line="47" selection-end-column="84" />
           <folding />
         </state>
@@ -1017,8 +804,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/express_session/project/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx_conf/master1/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx_conf/master2/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx_conf/local/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-master1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-master2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_session/project/bin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="119" column="36" lean-forward="true" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
           <folding />
         </state>
       </provider>
