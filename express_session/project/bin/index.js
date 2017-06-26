@@ -125,7 +125,7 @@ router.get('/', function (req, res) {
             value: JSON.stringify(cb.value),
             hostname: cb.value,
             time: cb.time,
-            machinename: os.hostname.toUpperCase()
+            machinename: os.hostname().toUpperCase()
         });
     });
 });
