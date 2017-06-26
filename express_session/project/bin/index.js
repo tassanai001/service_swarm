@@ -48,6 +48,7 @@ app.use(cookieParser("secretSign#143_!223"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+console.log("MACHINE_NAME::::::::::>> ", process.env.MACHINE_NAME);
 router.get('/', function (req, res) {
     var result = req.session["counter"];
     if (result !== undefined) {
