@@ -62,8 +62,8 @@ router.get('/', function (req, res) {
             counter: result,
             value: JSON.stringify(cb.value),
             time: cb.time,
-            master: cb.hostname,
-            machinename: process.env.MACHINE_NAME
+            master: process.env.MACHINE_NAME,
+            machinename: cb.hostname
         });
     });
 });
