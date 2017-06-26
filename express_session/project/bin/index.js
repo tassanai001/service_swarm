@@ -48,6 +48,37 @@ app.use(cookieParser("secretSign#143_!223"));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+router.get('/', function (req, res) {
+    var result = req.session["counter"];
+    if (result !== undefined) {
+        result += 1;
+    } else {
+        result = 0;
+    }
+    req.session["counter"] = result;
+    getValuePoolnode(function (cb) {
+        console.timeEnd("PoolNode Time");
+        res.render('index.ejs', {
+            counter: result,
+            value: JSON.stringify(cb.value),
+            time: cb.time,
+            master: cb.hostname,
+            machinename: process.env.MACHINE_NAME
+        });
+    });
+});
+
+function getValuePoolnode(callback) {
+    var URL = `http://${process.env.IP_LOCAL_HOST}:3003/Render/renderCmp`;
+    unirest.get(URL).end(function (response) {
+        if (response.body) {
+            callback(response.body);
+        } else {
+            callback(null);
+        }
+    });
+}
+
 function handle_database(req, type, callback) {
     async.waterfall([
         function (callback) {
@@ -105,38 +136,6 @@ function handle_database(req, type, callback) {
             callback(null);
         } else {
             callback(result);
-        }
-    });
-}
-
-
-router.get('/', function (req, res) {
-    var result = req.session["counter"];
-    if (result !== undefined) {
-        result += 1;
-    } else {
-        result = 0;
-    }
-    req.session["counter"] = result;
-    getValuePoolnode(function (cb) {
-        console.timeEnd("PoolNode Time");
-        res.render('index.ejs', {
-            counter: result,
-            value: JSON.stringify(cb.value),
-            hostname: cb.value,
-            time: cb.time,
-            machinename: os.hostname().toUpperCase()
-        });
-    });
-});
-
-function getValuePoolnode(callback) {
-    var URL = `http://${process.env.IP_LOCAL_HOST}:3003/Render/renderCmp`;
-    unirest.get(URL).end(function (response) {
-        if (response.body) {
-            callback(response.body);
-        } else {
-            callback(null);
         }
     });
 }
